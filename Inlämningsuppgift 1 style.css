@@ -1,0 +1,67 @@
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+
+@font-face {
+  src: url(./fonts/Aaleyah_PersonalUseOnly.otf);
+  font-family: Aaleyah;
+}
+
+body{
+  background-image: url("./images/Wooden\ table\ outside.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+ .centerBoard {
+    width: 1000px;
+    height: 620px;
+    background-color: red;
+    border: 15px solid transparent;
+    border-image: url(./images/Taj\ Mahal\ border.jpg) 30 round;
+    padding: 20px;
+
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+  }
+
+canvas {
+  width: 770px;
+  height: 450px;
+  border: 3px solid black;
+  background-color: white;
+
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    font-family: Aaleyah;
+    font-size: 40px;
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 5s infinite linear;
+  animation: fa-spin 5s infinite linear;
+}
+
+.reverse-spin {
+  -webkit-animation: fa-spin 5s infinite linear;
+  animation: fa-spin 5s infinite linear;
+  animation-direction: reverse;
+  -webkit-animation-direction:reverse;
+  -moz-animation-direction:reverse;
+}
